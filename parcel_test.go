@@ -14,7 +14,7 @@ var (
 	// Для повышения уникальности в качестве seed
 	// используется текущее время в unix-формате в виде числа
 	randSource = rand.NewSource(time.Now().UnixNano())
-	// randRange использует randSource для генерации случайных чисел
+	// randRange использует randSource для  генерации случайных чисел
 	randRange = rand.New(randSource)
 )
 
