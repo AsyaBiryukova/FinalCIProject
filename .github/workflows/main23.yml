@@ -38,7 +38,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: eqlent/asyabiryukova/ci_cd1
+          images: asyabiryukova/ci_cd1
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
