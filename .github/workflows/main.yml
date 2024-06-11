@@ -2,8 +2,6 @@ name: final-main-pipeline
 
 on: 
   push:
-    branches:
-      - main
     tags:
       - 'v*'
 
